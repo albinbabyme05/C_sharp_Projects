@@ -1,0 +1,24 @@
+
+
+dotnet new console -n 
+
+dotnet sln add /.csproj
+
+
+dotnet sln list
+
+
+# to run the Program
+dotnet run --project RockPaperScissor
+
+=======================================
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+    }
+}
+

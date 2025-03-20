@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicsOfCSharp", "BasicsOfCSharp\BasicsOfCSharp.csproj", "{C0A61059-F9FB-4868-9FDA-D3D4B3EF9880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissor", "RockPaperScissor\RockPaperScissor.csproj", "{024EB207-09EC-44B8-ADAA-59F06444FEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{B35968FC-39F3-4AFC-A1E7-890E744971C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A61059-F9FB-4868-9FDA-D3D4B3EF9880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A61059-F9FB-4868-9FDA-D3D4B3EF9880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A61059-F9FB-4868-9FDA-D3D4B3EF9880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A61059-F9FB-4868-9FDA-D3D4B3EF9880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024EB207-09EC-44B8-ADAA-59F06444FEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024EB207-09EC-44B8-ADAA-59F06444FEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024EB207-09EC-44B8-ADAA-59F06444FEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024EB207-09EC-44B8-ADAA-59F06444FEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35968FC-39F3-4AFC-A1E7-890E744971C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35968FC-39F3-4AFC-A1E7-890E744971C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35968FC-39F3-4AFC-A1E7-890E744971C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35968FC-39F3-4AFC-A1E7-890E744971C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
