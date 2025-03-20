@@ -50,6 +50,15 @@ class Program
         }
         Console.WriteLine("Duplicate removed: " + string.Join(", ", newNumbersList));
 
+
+        //=======Task3========convert list to string==================
+        Console.WriteLine("Enter Number Coma Separted : ");
+        string[] texts = (Console.ReadLine()??" ").Split(',');
+
+        Console.WriteLine(string.Join(" ",texts));
+        Console.WriteLine(string.Join(" ,",texts));
+
+
         
     }
 }
