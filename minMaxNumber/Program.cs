@@ -17,6 +17,8 @@ class Program
             }
         }
 
+        Console.WriteLine("original List: " + string.Join(", ", numbersList));
+
         int highestNumber = 0;
         int lowesrNumber = numbersList[0];
         foreach(int currentNumber in numbersList){
@@ -29,5 +31,25 @@ class Program
         }
         Console.WriteLine("The Highest Number is: "+highestNumber);
         Console.WriteLine("The Lowest Number is: "+lowesrNumber);
+
+
+        //===============Reversing the above list created==================
+        numbersList.Reverse();
+        Console.WriteLine("Reversed List: " + string.Join(", ", numbersList));
+
+        //===============check duplicate number==================
+
+         List<int> newNumbersList = new List<int>();
+        foreach(int num in numbersList){
+        // 
+        if(!newNumbersList.Contains(num))// if the not in the list it will return true, ! reverse it
+        {
+            //adding only the number without duplicates
+            newNumbersList.Add(num);
+        }
+        }
+        Console.WriteLine("Duplicate removed: " + string.Join(", ", newNumbersList));
+
+        
     }
 }
