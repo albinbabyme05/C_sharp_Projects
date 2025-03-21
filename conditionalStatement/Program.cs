@@ -5,6 +5,11 @@ class Program
 {
     static void Main()
     {
+        // problem1:  age checking
+        // write condition age between 18 and 25 
+        // condition2 age greater than 25
+        //  condition3 age less than zero
+
         Console.WriteLine("Enter your name : ");
         string? name = Console.ReadLine();
 
@@ -25,7 +30,9 @@ class Program
         }
 
         //====================Switch Statement===========================
-
+        // problem2 
+        // the entered number between 1-7 should output a day
+        
         Console.WriteLine("Enter the day of the week: ");
         string? dayInput = Console.ReadLine();
         int day = Convert.ToInt32(dayInput);
