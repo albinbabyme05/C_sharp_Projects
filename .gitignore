@@ -87,3 +87,7 @@ __pycache__/
 # Ignore IDE settings
 *.sln.docstates
 *.csproj.user
+*.csproj*
+.csproj
+*.sln
+.sln
