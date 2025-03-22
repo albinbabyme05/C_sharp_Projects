@@ -40,5 +40,36 @@ class Program
         Console.WriteLine("Position: "+index);
 
     }
+
+    //========================================================
+    /* problem:2  find the index of 'element' from the list using function*/
+    //========================================================
+
+    static void Main(){
+        List<string> shoppingList = new List<string>
+        {"milk", "coffee", "cup", "tea"};
+
+
+        FindInList("cup", shoppingList, out int index);
+        Console.WriteLine("position : "+index);
+        // or you can write
+        Console.WriteLine("index position: "+shoppingList.IndexOf("milk"));
+        
+    }
+
+    /*here  we use 'out' in the function which returns a bool
+    and value and value can be used by using 'out int variable name'
+    */
+    static bool FindInList(string s, List<string> shopList, out int index){
+        index = -1;
+        for(int i=0; i<shopList.Count; i++){
+            if(shopList[i].ToLower().Equals(s.ToLower())){
+                index = i;
+            }
+        }
+        bool found = index>-1; //-1 indecated not fond the element form the list
+        return found;
+
+    }
 }
 
