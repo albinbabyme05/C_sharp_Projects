@@ -137,10 +137,32 @@ class Program
     }
 
     //================================================================
-        /* Alternative Way*/
+        /* Alternative Way--""out""*/
     //================================================================
 
+    static void Main(){
+        int[] numbers = new int[]{};
 
+        //here we getting true or false , if the sum there it will give sum because of ""out""
+        if(FindSum(numbers, out int sum)){
+            Console.WriteLine($"Sum of the array: {sum}");
+        }
+        else{
+            Console.WriteLine("Array can not keep as Empty!!!");
+        }
+    }
+
+    static bool FindSum(int[] numberList, out int sum){
+        sum=0;
+        if(numberList.Length > 0){
+            foreach(int iteam in numberList){
+            sum+=iteam;
+        }
+        return true;
+        }
+        return false;
+        
+    }
 
 }
 
