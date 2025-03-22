@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Reflection;
 
 class Program
@@ -70,6 +71,33 @@ class Program
         bool found = index>-1; //-1 indecated not fond the element form the list
         return found;
 
+    }
+    //=======================================================================
+    //=======================================================================
+
+    /*ask user to enter width and height and store them
+    *calc the area  in the funtion 
+    *call in main and display out
+    */
+
+    static void Main(){
+        
+        int height = ConvertToInt("Enter height : ");
+        int width =  ConvertToInt("Enter height : ");
+
+        float area = CalcArea(height, width);
+
+        Console.WriteLine($"Area of the given Triangle is {area}");
+
+    }
+
+    static int CalcArea(int height, int width){
+        return (height*width)/2;
+    }
+
+    static int ConvertToInt(string message){
+        Console.WriteLine(message);
+        return Convert.ToInt32(Console.ReadLine());
     }
 }
 
